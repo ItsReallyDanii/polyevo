@@ -1,0 +1,7 @@
+species,estimated_delta_e,bypass_structures_count,hardware_retained,bypass_type,complexity,source
+Crocodylus porosus,0.75,3,four-chambered heart,cardiovascular shunt (foramen of Panizza),HIGH,"Seymour et al 2004 PBZ 77:6"
+Alligator mississippiensis,0.75,3,four-chambered heart,cardiovascular shunt,HIGH,"Seymour et al 2004 PBZ 77:6"
+Heterocephalus glaber,0.25,1,functional UCP1 BAT,behavioral outsourcing (communal nesting),LOW,"Gaudry et al 2025 Acta Physiol; Cheng et al 2021 Nature Comms"
+Dermochelys coriacea,0.50,2,countercurrent heat exchanger,gigantothermy + CCHE,MODERATE,"Penick & Spotila 2007 Royal Soc Biol Lett"
+Thunnus thynnus,0.50,1,retia mirabilia,regional vascular isolation,MODERATE,"Daane et al 2015; BMC Genomics 2020"
+Isurus oxyrinchus,0.50,1,retia mirabilia,regional vascular isolation,MODERATE,"PMC 2025 mako shark"
