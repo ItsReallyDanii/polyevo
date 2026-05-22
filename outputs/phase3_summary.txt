@@ -1,0 +1,26 @@
+==============================================================
+  EME PHASE 3 — SIMULATION SUMMARY
+  800 lineages × 5000 gens × 5 dE levels  |  seed=42
+==============================================================
+
+     dE    %Locked    AvgLockGen   Deps@Lock  Species
+  ─────  ─────────  ────────────  ──────────  ───────────────────────────────────
+   0.10        0.0%         N/A         0.0  Ectotherm baseline
+   0.25        0.0%         N/A         0.0  Heterocephalus glaber
+   0.50        1.1%        4296        12.0  Dermochelys coriacea / Thunnus thynnus
+   0.75       78.2%        3347         8.0  Crocodylus porosus
+   1.00       99.9%        1927         6.0  Gallus gallus / Mus musculus
+
+  Sigmoid dE*             : 0.6943
+  Linear/Sigmoid ratio    : 117729321x
+  VERDICT                 : SIGMOIDAL THRESHOLD CONFIRMED
+  Lock-in speed r         : -0.9935
+
+  NEXT STEPS:
+  1. EltonTraits: https://figshare.com/collections/EltonTraits_1_0/3306933
+  2. AmphiBIO   : https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mg8g
+     (NOT file_stream/67929 — that URL is a nectocaridid fossil paper)
+  3. python simulation/phase2_data_pull.py
+  4. python simulation/cne_simulation_v04.py --real-de
+  5. Cite Cubo et al. 2026 (ScienceDirect) as adjacent — different mechanism
+==============================================================

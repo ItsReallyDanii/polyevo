@@ -1,0 +1,6 @@
+delta_e,label,species_analog,pct_locked,pct_never_locked,avg_lock_gen,median_lock_gen,avg_deps_at_lock,avg_final_deps
+0.1,Partial fish (ectotherm baseline),Ectotherm baseline,0.0,100.0,,,,0.01
+0.25,Naked mole-rat equiv (behavioral outsourcing),Heterocephalus glaber,0.0,100.0,,,,0.22
+0.5,Leatherback / Bluefin tuna (vascular bypass),Dermochelys coriacea / Thunnus thynnus,1.1,98.9,4296.0,4296.0,12.0,1.49
+0.75,Crocodilian ancestor (cardiovascular bypass),Crocodylus porosus,78.2,21.8,3347.0,3249.5,8.0,7.14
+1.0,Full archosaurian endotherm (baseline endotherm),Gallus gallus / Mus musculus,99.9,0.1,1927.0,1796.0,6.0,5.95

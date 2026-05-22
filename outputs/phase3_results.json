@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "project": "Epistatic-Metabolic Entanglement (EME) Hypothesis",
+    "author": "Daniel Sleiman",
+    "version": "v0.4",
+    "date": "2026-05-21",
+    "params": {
+      "n": 800,
+      "gens": 5000,
+      "mut": 0.003,
+      "thresh": 0.5,
+      "seed": 42
+    }
+  },
+  "results": {
+    "0.1": {
+      "delta_e": 0.1,
+      "label": "Partial fish",
+      "species_analog": "Ectotherm baseline",
+      "pct_locked": 0.0,
+      "pct_never_locked": 100.0,
+      "avg_lock_gen": null,
+      "avg_deps_at_lock": 0.0,
+      "avg_final_deps": 0.01
+    },
+    "0.25": {
+      "delta_e": 0.25,
+      "label": "Naked mole-rat",
+      "species_analog": "Heterocephalus glaber",
+      "pct_locked": 0.0,
+      "pct_never_locked": 100.0,
+      "avg_lock_gen": null,
+      "avg_deps_at_lock": 0.0,
+      "avg_final_deps": 0.22
+    },
+    "0.5": {
+      "delta_e": 0.5,
+      "label": "Leatherback/tuna",
+      "species_analog": "Dermochelys coriacea / Thunnus thynnus",
+      "pct_locked": 1.1,
+      "pct_never_locked": 98.9,
+      "avg_lock_gen": 4296.0,
+      "avg_deps_at_lock": 12.0,
+      "avg_final_deps": 1.49
+    },
+    "0.75": {
+      "delta_e": 0.75,
+      "label": "Croc ancestor",
+      "species_analog": "Crocodylus porosus",
+      "pct_locked": 78.2,
+      "pct_never_locked": 21.8,
+      "avg_lock_gen": 3347.0,
+      "avg_deps_at_lock": 8.0,
+      "avg_final_deps": 7.14
+    },
+    "1.0": {
+      "delta_e": 1.0,
+      "label": "Full archosaurian",
+      "species_analog": "Gallus gallus / Mus musculus",
+      "pct_locked": 99.9,
+      "pct_never_locked": 0.1,
+      "avg_lock_gen": 1927.0,
+      "avg_deps_at_lock": 6.0,
+      "avg_final_deps": 5.95
+    }
+  },
+  "statistics": {
+    "sigmoid_params": {
+      "L": 100.0,
+      "k": 23.03,
+      "x0_threshold": 0.6943
+    },
+    "linearity_ratio": 117729321.0,
+    "verdict": "SIGMOIDAL THRESHOLD CONFIRMED",
+    "speed_r": -0.9935,
+    "speed_p": 0.0728
+  }
+}
